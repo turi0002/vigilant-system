@@ -4,19 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/CSS" href="style.css" />
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <title>book store</title>
 </head>
-<body>
+<body style="background-image: url(/assets/book.background.jpg) ;">
     <div class="header-continer" style="background-image: url(/assets/book.background.jpg) ;">
+        <div>
         <h1 class="header" >booki book store</h1>
     </div>
-    </div> 
+        <div>
+            <a href="#header" class="nav-button" id="nav1">top</a>
+            <a href="#bottom" class="nav-button" id="nav2">bottom</a>
+            <a href="#book1"  class="nav-button" id="nav3">books</a>
+        </div>
+    </div>
     <div class="main-body" >
-        <ul>
-            <li><a href="default.asp">top</a></li>
-            <li><a href="news.asp">bottom</a></li>
-            <li><a href="contact.asp">books</a></li>
-          </ul>
+        <a href="#nav3" class="btn-continer">
+          <img width="50px" height="50px" src="/assets/btnUp.png" alt=""> 
+        </a>
         <p class="books">
          <a href="https://www.amazon.com/Fourth-Wing-Empyrean-Rebecca-Yarros/dp/1649374046/ref=zg_sccl_2/131-5393552-0167338?pd_rd_w=RMvAG&content-id=amzn1.sym.193afb92-0c19-4833-86f8-850b5ba40291&pf_rd_p=193afb92-0c19-4833-86f8-850b5ba40291&pf_rd_r=71HWJF09QH2VN0KF335E&pd_rd_wg=JXQp8&pd_rd_r=0ff5153d-1e37-47b3-8b6e-576157fc901e&pd_rd_i=1649374046&psc=1">  
         <img style="vertical-align:middle" id="book1"  src="/assets/book1.jpg" alt="sorry we are out" height="150px" width="150px" >
@@ -27,17 +32,25 @@
         <a href="https://www.amazon.com/Atomic-Habits-Proven-Build-Break/dp/0735211299/ref=zg_sccl_2/131-5393552-0167338?pd_rd_w=vJUCW&content-id=amzn1.sym.193afb92-0c19-4833-86f8-850b5ba40291&pf_rd_p=193afb92-0c19-4833-86f8-850b5ba40291&pf_rd_r=63B6CVYR6QR5X72HWQDA&pd_rd_wg=13ZQT&pd_rd_r=0c12df88-d350-4334-a4ff-664ff7adaebc&pd_rd_i=0735211299&psc=1">
         <img style="vertical-align:middle" id="book3"  src="/assets/book3.jpg" alt="sorry we are out" height="150px" width="150px">
         </a>
+        
 
     </p>
     <span id="title1">Fourth Wing 15$</span>
     <span id="title2">American Prometheus: 16$</span>
     <span id="title3">Atomic Habits 13$</span>
+    <lottie-player src="https://lottie.host/385f2f5e-eca6-4691-82ec-fa55ff44834e/vvUOvJD6lE.json" background="transparent"  speed="1"  style="width: 300px; height: 300px;" loop autoplay></lottie-player>
     <hr>
-    </div>
     <div class="bottom">
-
+        Copyright © 2010 by Bill Shakespeare, All rights reserved.
+        <ul>
+            <li><a href="https://www.facebook.com/">fackbook</a></li>
+            <li><a href="https://www.instagram.com/">instegram</a></li>
+            <li><a href="https://twitter.com/">twitter</a></li>
+          </ul>
     </div>
-   
+    </div>
+    
+
     
 </body>
 </html>
